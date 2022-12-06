@@ -1,14 +1,18 @@
+html, body{
+  background-color: #eeeeee;
+}
 nav{
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   padding: 3px;
-  background-color: gray;
+  background-color: #333333;
+  z-index: 1;
 }
 
 ul li, li a{
-  width: 6%;
+  margin: 0 1%;
   color: white;
   float: right;
   list-style: none;
@@ -22,4 +26,33 @@ ul:after{
   content: "";
   display: block;
   clear: both;
+}
+
+main{
+  width: 80vw;
+  background-color: white;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+.banner{
+  position: relative;
+  max-height: 350px;
+  overflow:hidden;
+}
+.banner img{
+  max-height: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: white;
+  
 }
