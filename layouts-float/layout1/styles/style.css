@@ -29,10 +29,10 @@ ul:after{
 }
 
 main{
-  width: 80vw;
+  width: 75vw;
   background-color: white;
   margin: 0 auto;
-  padding: 3%;
+  padding: 2%;
 }
 
 .banner{
@@ -88,4 +88,14 @@ h1{
 }
 .service:nth-child(3){
   top: 20%;
+}
+
+article{
+  padding: 1%;
+}
+article p{
+  column-count: 3;
+  column-gap: 5%;
+  column-rule: 2px solid #ebebeb;
+  text-align: justify;
 }
