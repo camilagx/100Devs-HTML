@@ -99,3 +99,19 @@ article p{
   column-rule: 2px solid #ebebeb;
   text-align: justify;
 }
+
+.column{
+  float: left;
+  width: 48%;
+  margin: 1%;
+}
+
+article + section:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.column img{
+  width: 100%;
+}
