@@ -1,6 +1,6 @@
 # Layout 1
 
-Practicing the use of floats with layouts.
+The purpose of this website is to practice creating layouts using float.
 
 ![layout1](https://user-images.githubusercontent.com/99628526/206070265-d8054a41-c502-48d7-be04-4d6ebdd90f97.jpg)
 
