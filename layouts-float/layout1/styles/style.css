@@ -74,7 +74,7 @@ h1{
 }
 .service *{
   text-align: center;
-  color: #979694;
+  color: black;
 }
 
 .services:after{
@@ -83,12 +83,31 @@ h1{
   clear: both;
 }
 
-.service:nth-child(2){
-  top: 10%;
-}
+.service:nth-child(2),
 .service:nth-child(3){
-  top: 20%;
+  top: 10%;
+  background-color: #efdcde;
 }
+
+.service:nth-child(3){
+  background-color: lightyellow;
+}
+
+
+#service1, #service1 *{
+  background-color: lightblue;
+  font-weight: bold;
+  color: black;
+}
+
+#service1 > p:hover{
+  background-color:#7ebfd4;
+  border:1px solid grey;
+  border-radius: 2%;
+  transition:all 0.125s ease-in-out;
+}
+
+
 
 article{
   padding: 1%;
@@ -114,4 +133,8 @@ article + section:after{
 
 .column img{
   width: 100%;
+}
+
+.hidden{
+  display:none;
 }
