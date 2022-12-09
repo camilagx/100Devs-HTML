@@ -46,4 +46,11 @@ li a{
   text-decoration: none;
 }
 
+nav + section > *{
+  float: left;
+  width: 48%;
+}
 
+h2{
+  width: 35%;
+}
