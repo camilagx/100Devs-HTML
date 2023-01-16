@@ -1,0 +1,111 @@
+/*
+-Property-value pairs alphabetised
+*/
+* {
+  background-color: black;
+  box-sizing: border-box;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  opacity: 0.9;
+  padding: 0;
+}
+
+/* Header styles */
+nav{
+  align-items: center;
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+}
+
+.logo{
+  max-height: 50px;
+}
+
+ul{
+  display:inline; 
+  text-align: right;
+}
+ul li{
+  margin-left: 20px;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+/* Banner Styling*/
+.banner{
+  background-image: url(media/img-mission-background.jpg);
+  min-height: 700px;
+}
+
+section.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h2{
+  font-size: 32px;
+}
+
+.banner h2, .banner h4{
+  line-height: 2;
+  text-align: center;
+  width: 100%;
+
+}
+/* Main Section */
+.banner,
+main,
+footer{
+  position: relative;
+  top: 80px;
+}
+/* Tea Styling*/
+#tea{
+  padding: 5% 2%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#tea h3{
+  font-size: 30px;
+}
+
+#tea h3, #tea p{
+  line-height: 2;
+}
+
+#tea figure img, 
+#tea figure{
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.tea-gallery{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+  justify-content: center;
+  min-height: 600px;
+}
+/* Locations Styling */
+#locations{
+  background-image: url(media/img-locations-background.jpg);
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Footer */
+footer{
+  background-color: orange;
+}
