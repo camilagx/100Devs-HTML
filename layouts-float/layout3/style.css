@@ -20,8 +20,13 @@ nav{
   justify-content: space-between;
   padding: 0 10px;
   position: fixed;
-  width: 100vw;
-  z-index: 10;
+  width: 100%;
+  z-index: 3;
+}
+
+header{
+  position: relative;
+  z-index: 1;
 }
 
 .logo{
@@ -30,11 +35,10 @@ nav{
 
 ul{
   display:inline; 
-  text-align: right;
 }
 ul li{
-  margin-left: 20px;
   display: inline-block;
+  padding: 10px;
   list-style-type: none;
   text-decoration: underline;
 }
@@ -62,6 +66,11 @@ section.banner{
 
 }
 /* Main Section */
+main *{
+  position: relative;
+  z-index: 2;
+}
+
 .banner,
 main,
 footer{
