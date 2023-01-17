@@ -33,19 +33,24 @@ header{
   max-height: 50px;
 }
 
-ul{
+.nav-ul{
   display:inline; 
 }
+.nav-ul li{
+  padding: 10px;
+  text-decoration: underline;
+}
+
 ul li{
   display: inline-block;
-  padding: 10px;
   list-style-type: none;
-  text-decoration: underline;
 }
 
 /* Banner Styling*/
 .banner{
   background-image: url(media/img-mission-background.jpg);
+  background-size: cover;
+  min-width: 1200px;
   min-height: 700px;
 }
 
@@ -54,9 +59,6 @@ section.banner{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.banner h2{
-  font-size: 32px;
 }
 
 .banner h2, .banner h4{
@@ -79,13 +81,10 @@ footer{
 }
 /* Tea Styling*/
 #tea{
-  padding: 5% 2%;
-  text-align: center;
   font-weight: bold;
-}
-
-#tea h3{
-  font-size: 30px;
+  text-align: center;
+  margin: 2% auto;
+  width: 1000px;
 }
 
 #tea h3, #tea p{
@@ -106,15 +105,50 @@ footer{
   min-height: 600px;
 }
 /* Locations Styling */
-#locations{
+#locations-section{
   background-image: url(media/img-locations-background.jpg);
-  min-height: 500px;
+  background-size: cover;
   display: flex;
   flex-direction: column;
+  min-height: 500px;
+  min-width: 1200px;
+  justify-content: center;
   align-items: center;
+}
+.locations-heading.title{
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+#locations-section ul{
+  background-color: transparent;
+}
+
+#locations-section li{  
+  background-color: black;
+  opacity: 1;
+  height: auto;
+  line-height: 3;
+  text-align: center;
+  width: auto;
+}
+.location{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#locations-section p{
+  width: 300px;
+  text-align: center;
 }
 
 /* Footer */
 footer{
   background-color: orange;
 }
+
+/*Styling across webpage */
+.title{
+  font-size: 32px;
+}
+
