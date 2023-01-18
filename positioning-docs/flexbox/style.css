@@ -1,3 +1,10 @@
+/*
+Next Objective::
+1. Make column types stack under the flex-title
+2. Make each column type clickable
+3. Create different buttons for different properties
+*/
+
 *{
   margin: 0;
   padding: 0;
@@ -18,27 +25,31 @@ main{
   margin: 0 auto;
 }
 
-/*Main section styling */
-.flex-type{
+/*Container section styling */
+.container{
   background-color: grey;;
   display: flex;
+  min-height: 400px;
   justify-content: center;
+  column-gap: 5px;
   margin: 0 auto;
   padding: 2%;
 }
+
 
 /* Visual container styling */
 .visual{
  background-color: rgb(68, 126, 174);
  border: 2px solid black;
- border-radius: 2px;
+ border-radius: 5px;
+ display: flex;
  width: 65vw;
 }
 
 .box{
-  width: 130px;
-  height: 130px;
   border-radius: 5px;
+  height: 100px;
+  width: 100px;
 }
 
 .box p{
@@ -53,30 +64,57 @@ main{
 }
 
 .two{
-  background-color: #f87c00;
+  background-color: #ec7906;
 }
 
 .three{
-  background-color: #f64300;
+  background-color: rgb(223, 108, 55);
+  justify-self: flex-end;
 }
 
 /* Code container Styling*/
+.objective{
+  font-weight: 600;
+  text-align: center;
+}
+
 .code-section{
   background-color: aliceblue;
-  margin: 10px;
+  border-radius: 5px;
+  padding: 1%;
   width: 30vw;
 }
 
 code{
-  display: block;
   background-color: lightgrey;
+  display: block;
+  margin: 5% 1.5%;
+  line-height: 1.5;
 }
 
 #displayFlexBtn{
-  padding: 4px 5px;
+  background-color:#f87c00;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
 }
 
 /* Styling */
-.flex{
+.flex-style{
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline{
+  margin-left: 20px;
+}
+
+.important{
+  font-weight: bold;
+}
+/*Major Components */
+input[type="button"]:hover{
+  cursor: pointer;
 }

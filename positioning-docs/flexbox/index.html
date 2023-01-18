@@ -11,8 +11,13 @@
 <body>
   <h1>Flexbox</h1>
   <main>
-    <section class="flex-type">
-      <section class="visual wrapper1">
+    <section class="container">
+      <h2 class="flex-title ">Flex-direction: Column</h2>
+      <ul>
+        <li>Column</li>
+        <li>Column-Reverse</li>
+      </ul>
+      <section class="visual container1">
         <div class="one box">
           <p>Box 1</p>
         </div>
@@ -24,13 +29,17 @@
         </div>
       </section>
       <section class="code-section">
-        <p class="objective">Make wrapper display flex</p>
+        <p class="objective">Make the wrapper display flex</p>
         <code>
-          .wrapper{ <br>
-            display: flex; <br>
+          .wrapper { 
+            <p class="inline">display: flex; </p>
           } 
         </code>
         <input type="button" value="Display flex" id="displayFlexBtn">
+        <p class="notes">
+          <p class="important">Notes</p>
+          Flex-direction is 'row' by default.
+        </p>
       </section>
     </section>
    
