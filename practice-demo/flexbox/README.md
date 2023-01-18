@@ -10,13 +10,12 @@ Result: The container becomes a flex-container and every direct child becomes a 
 
 ### Default Styling
 
-###### Block-level elements
+#### Block-level elements
 List of common block-evel elements:
 
 - h1-h6 headings
 - ol, ul & li
 - p
-
 - section
 - footer
 - form
@@ -25,9 +24,10 @@ List of common block-evel elements:
 - [visit mdn](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements "mdn") for all block elements
 
 What to remember
-- Block-level elements occupy the entire horizontal space of its parent element (container).
-- The default height of a block-level element is the height of the **content**. 
+1. Block-level elements occupy the entire horizontal space of its parent element (container), width 100%.
+2. The default height of a block-level element is the height of the **content**. 
+
 
 
 ###### Resources:
-- [mdn](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"mdn website")
+- [mdn](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox "mdn website")
