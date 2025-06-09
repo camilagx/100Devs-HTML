@@ -29,14 +29,53 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 header {
-
+  background-color: black;
+  height: 75px;
 }
 
-footer {
-
+nav * {
+  float: left;
+  color: white;
+  text-decoration: none;
+  display: block;
 }
 
+nav > img + a {
+  width: 100px;
+} 
+
+nav ul {
+  width: 50%;
+}
+
+ul li {
+  list-style-type: none;
+  width: 10%;
+} 
+
+main > section {
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+main > section + section section {
+  float: left;
+  height: 50%;
+  width: 50%;
+}
+
+
+main + section > h2{
+  clear: both;
+}
+
+main + section section {
+  width: 33.3333%;
+  float: left;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
