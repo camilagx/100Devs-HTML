@@ -29,14 +29,63 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header a {
+  text-decoration: none;
 }
 
-footer {
-
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: block;
 }
 
+span {
+  display: inherit;
+}
+
+header , div {
+  float: left;
+  width: 10%;
+}
+
+div {
+  width: 90%;
+}
+
+main > section {
+  float: left;
+  width: 70%;
+}
+
+main > section > img {
+  display: inline-block;
+  height: 600px;
+  width: 100%;
+}
+
+
+main > section:nth-child(2) {
+  width: 30%;
+}
+
+main + section > h2 {
+  clear: both;
+}
+
+main + section section,
+main + section aside {
+  float: left;
+  width: 70%;
+}
+
+h2 + section + aside {
+  width: 30%;
+}
+
+aside img {
+  height: 200px;
+  width: 300px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
