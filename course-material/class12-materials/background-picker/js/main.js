@@ -1,7 +1,10 @@
 document.getElementById('purple').onclick = partyPurple
 document.getElementById('green').onclick = partyGreen
 document.getElementById('blue').onclick = partyBlue
-
+document.getElementById('salmon').onclick = () => {
+  document.querySelector('body').style.backgroundColor = 'salmon';
+  document.querySelector('body').style.color = 'white'
+}
 
 function partyPurple() {
   document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
